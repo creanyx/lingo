@@ -1,0 +1,78 @@
+extends layout
+
+block content
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#') Lingo
+    .container
+      hr
+      form.form-horizontal.form-large(role='form')
+          .row#1
+            .col-md-2.col-md-offset-1
+                input.letter(type='text', maxlength='1', class="1 inplace", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="2")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="3")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="4")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="5")
+          .row#2
+            .col-md-2.col-md-offset-1
+                input.letter(type='text', maxlength='1', class="1", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="2", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="3", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="4", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="5", disabled="true")
+          .row#3
+            .col-md-2.col-md-offset-1
+                input.letter(type='text', maxlength='1', class="1", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="2", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="3", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="4", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="5", disabled="true")
+          .row#4
+            .col-md-2.col-md-offset-1
+                input.letter(type='text', maxlength='1', class="1", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="2", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="3", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="4", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="5", disabled="true")
+          .row#5
+            .col-md-2.col-md-offset-1
+                input.letter(type='text', maxlength='1', class="1", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="2", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="3", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="4", disabled="true")
+            .col-md-2
+                input.letter(type='text', maxlength='1', class="5", disabled="true")
+          .row
+            hr
+            button.btn.btn-primary.btn-lg.btn-block(type='button', id="go") GO
+      hr
+      footer
+        .row
+          .col-lg-12
+            p Copyright © Your Website 2014

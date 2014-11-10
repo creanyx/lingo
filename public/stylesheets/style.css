@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form-large{
+    font-size: 60px;
+}
+
+.form-large .control-label{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+.form-large input, .form-large  button{
+    font-size: 40px;
+    padding: 20px;
+    height: auto;
+    text-transform: uppercase;
+    width: 180px;
+    text-align: center;
+    line-height: normal;
+}
+.inplace{
+    background:green;
+}
+.displace{
+    background:blue;
+}
+.incorrect{
+    background:red;
+}
