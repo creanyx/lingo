@@ -73,6 +73,15 @@ block content
             button.btn.btn-primary.btn-lg.btn-block(type='button', id="go") GO
       hr
       footer
-        .row
-          .col-lg-12
-            p Copyright © Your Website 2014
+      #myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+        .modal-dialog
+          .modal-content
+             .modal-header
+               button.close(type='button', data-dismiss='modal')
+                span(aria-hidden='true') ×
+                span.sr-only Close
+               h4.modal-title LINGO GAME RULES
+             .modal-body
+              p Lingo is a game of guessing five letter words with only 5 chances in hand.
+             .modal-footer
+              button.btn.btn-default(type='button', data-dismiss='modal') Close

@@ -9049,4 +9049,5 @@ jQuery(document).ready(function(){
 
 		}
 	});
+	jQuery('#myModal').modal('show');
 });
